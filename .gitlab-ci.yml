@@ -1,0 +1,24 @@
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+    - .yarn
+
+build-job:
+  stage: build
+  tags:
+    - deploy
+  script:
+    - yarn config set cache-folder .yarn
+    - yarn install
+
+deploy-job:
+  stage: deploy
+  tags:
+    - deploy
+  script:
+    - pm2 startOrGracefulReload ecosystem.config.js
+    - pm2 save
