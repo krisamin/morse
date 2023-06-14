@@ -1,8 +1,8 @@
-require("dotenv").config();
 const express = require('express');
 const app = express();
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
+const PORT = 3000;
 
 const fs = require('fs');
 const path = require('path');
@@ -31,6 +31,6 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(process.env.PORT, () => {
-  console.log('Server is up on port ' + process.env.PORT);
+server.listen(PORT, () => {
+  console.log('Server is up on port ' + PORT);
 });

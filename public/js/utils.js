@@ -1,1 +1,127 @@
-const _0x174156=_0x5d58;(function(_0x8ef367,_0x2d8870){const _0x457744=_0x5d58,_0x59dbc4=_0x8ef367();while(!![]){try{const _0x21da6d=parseInt(_0x457744(0x148))/0x1*(-parseInt(_0x457744(0x141))/0x2)+parseInt(_0x457744(0x142))/0x3+-parseInt(_0x457744(0x15d))/0x4+-parseInt(_0x457744(0x161))/0x5*(parseInt(_0x457744(0x13f))/0x6)+parseInt(_0x457744(0x157))/0x7*(-parseInt(_0x457744(0x146))/0x8)+parseInt(_0x457744(0x158))/0x9*(-parseInt(_0x457744(0x16d))/0xa)+parseInt(_0x457744(0x14a))/0xb;if(_0x21da6d===_0x2d8870)break;else _0x59dbc4['push'](_0x59dbc4['shift']());}catch(_0x430d2a){_0x59dbc4['push'](_0x59dbc4['shift']());}}}(_0x19f5,0xf0465));const generateRandomString=_0x2d2e1e=>{const _0x461f29=_0x5d58,_0x2126cd=_0x461f29(0x167);let _0x14a779='';const _0x13ac44=_0x2126cd[_0x461f29(0x147)];for(let _0x2d652a=0x0;_0x2d652a<_0x2d2e1e;_0x2d652a++){_0x14a779+=_0x2126cd[_0x461f29(0x15b)](Math[_0x461f29(0x156)](Math[_0x461f29(0x145)]()*_0x13ac44));}return _0x14a779;},idx=generateRandomString(0x14),socket=io();function _0x19f5(){const _0x2cff86=['3458716mKtoej','<img\x20src=\x22/img/letter/','hide','removeClass','200QHbQIS','ready','dotdot','UNDEFINED','addClass','append','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz','getTime','<img\x20src=\x22/img/letter/EMPTY.svg\x22>','touchend','<SPACE>','key','5710fsCIIS','.svg\x22>','</p>','json','18960HVhiOP','ajax','2278XzfQNI','5447568tlDNmZ','keyCode','log','random','8QEDjpq','length','317egIams','dashdash','34103806UzCUge','connect','press','toUpperCase','keys','connected','#dotdash','start','html','#morse','text','emit','floor','9929367zVpNSb','18306zSIsog','<p>','keydown','charAt','idx'];_0x19f5=function(){return _0x2cff86;};return _0x19f5();}socket['on'](_0x174156(0x14b),()=>{const _0x5cae5a=_0x174156;console[_0x5cae5a(0x144)](_0x5cae5a(0x14f));})['on']('key',_0x5472aa=>{const _0x334f81=_0x174156;if(_0x5472aa[_0x334f81(0x15c)]==idx)return;if(_0x5472aa[_0x334f81(0x16c)]=='EMPTY')$(_0x334f81(0x153))[_0x334f81(0x166)](_0x334f81(0x169));else $(_0x334f81(0x153))[_0x334f81(0x166)](_0x334f81(0x15e)+_0x5472aa['key']+_0x334f81(0x16e));});let morseRef=[];function _0x5d58(_0x198e75,_0x4f042a){const _0x19f5a3=_0x19f5();return _0x5d58=function(_0x5d5808,_0x4ec7fb){_0x5d5808=_0x5d5808-0x13d;let _0x2b48e5=_0x19f5a3[_0x5d5808];return _0x2b48e5;},_0x5d58(_0x198e75,_0x4f042a);}$(document)[_0x174156(0x162)](()=>{const _0x5b14af=_0x174156;console['log'](_0x5b14af(0x151)),$[_0x5b14af(0x140)]({'url':'/data/morse.json','dataType':_0x5b14af(0x13e),'success':_0x235934=>{const _0x75a6b3=_0x5b14af;console[_0x75a6b3(0x144)](_0x235934),morseRef=_0x235934,init();}});});const init=()=>{const _0x21878c=_0x174156;$('#morse')['on']('touchstart',function(){_0x57cbd0(0x1);})['on'](_0x21878c(0x16a),function(){_0x57cbd0(0x0);}),$(document)['on'](_0x21878c(0x15a),_0x55d55f=>{const _0x5dfedd=_0x21878c;if(_0x55d55f[_0x5dfedd(0x143)]==0x20)_0x57cbd0(0x1);})['on']('keyup',_0x488180=>{const _0x1daa89=_0x21878c;if(_0x488180[_0x1daa89(0x143)]==0x20)_0x57cbd0(0x0);});const _0x286fea=_0xe65d37=>{const _0x2ea5e2=_0x21878c;return Object[_0x2ea5e2(0x14e)](morseRef)['indexOf'](_0xe65d37)>-0x1?morseRef[_0xe65d37]:_0x2ea5e2(0x164);};let _0x5d23d6=0x0,_0x332c2b=0x0,_0x35e586='',[_0x2bedc1,_0x1ed10f,_0x1adf42]=[null,null,null];const _0x57cbd0=_0x4ccc63=>{const _0x256a17=_0x21878c;if(_0x332c2b==_0x4ccc63)return;_0x332c2b=_0x4ccc63;if(_0x4ccc63){$(_0x256a17(0x152))['addClass'](_0x256a17(0x14c));if(_0x2bedc1)clearTimeout(_0x2bedc1);if(_0x1ed10f)clearTimeout(_0x1ed10f);if(_0x1adf42)clearTimeout(_0x1adf42);if(!_0x35e586['length'])$(_0x256a17(0x150))[_0x256a17(0x154)]('');$('#dotdash')[_0x256a17(0x160)](_0x256a17(0x15f)),_0x5d23d6=new Date()[_0x256a17(0x168)](),console[_0x256a17(0x144)](_0x5d23d6);}else{$('html')['removeClass']('press'),duration=new Date()[_0x256a17(0x168)]()-_0x5d23d6,console[_0x256a17(0x144)](duration);duration<0xc8?_0x35e586+='•':_0x35e586+='–';$(_0x256a17(0x150))[_0x256a17(0x154)]('');for(var _0x3b2b82=0x0;_0x3b2b82<_0x35e586[_0x256a17(0x147)]-0x1;_0x3b2b82++){$item=$('<p>'+_0x35e586[_0x256a17(0x15b)](_0x3b2b82)+_0x256a17(0x13d)),_0x35e586[_0x3b2b82]=='–'&&_0x35e586[_0x3b2b82+0x1]=='–'&&$item['addClass'](_0x256a17(0x149)),_0x35e586[_0x3b2b82]=='•'&&_0x35e586[_0x3b2b82+0x1]=='•'&&$item['addClass'](_0x256a17(0x163)),$(_0x256a17(0x150))[_0x256a17(0x166)]($item);}$(_0x256a17(0x150))[_0x256a17(0x166)]($(_0x256a17(0x159)+_0x35e586[_0x35e586[_0x256a17(0x147)]-0x1]+'</p>')),_0x2bedc1=setTimeout(()=>{const _0x5bd5d3=_0x256a17;$(_0x5bd5d3(0x150))['addClass'](_0x5bd5d3(0x15f));},0x12c),_0x1ed10f=setTimeout(()=>{const _0x51f6a4=_0x256a17,_0x404551=_0x286fea(_0x35e586)[_0x51f6a4(0x14d)]();$('#dotdash')[_0x51f6a4(0x154)](_0x404551)['removeClass'](_0x51f6a4(0x15f)),_0x404551!='UNDEFINED'&&($('#morse')['append'](_0x51f6a4(0x15e)+_0x404551+_0x51f6a4(0x16e)),socket['emit'](_0x51f6a4(0x16c),{'idx':idx,'key':_0x404551})),_0x35e586='',_0x2bedc1=setTimeout(()=>{const _0x406605=_0x51f6a4;$(_0x406605(0x150))[_0x406605(0x165)](_0x406605(0x15f));},0x1f4),_0x1adf42=setTimeout(()=>{const _0x3b11d2=_0x51f6a4;$(_0x3b11d2(0x150))[_0x3b11d2(0x154)](_0x3b11d2(0x16b))[_0x3b11d2(0x160)](_0x3b11d2(0x15f)),$('#morse')[_0x3b11d2(0x166)](_0x3b11d2(0x169)),socket[_0x3b11d2(0x155)](_0x3b11d2(0x16c),{'idx':idx,'key':'EMPTY'}),setTimeout(()=>{const _0xdceb5e=_0x3b11d2;$(_0xdceb5e(0x150))[_0xdceb5e(0x165)](_0xdceb5e(0x15f));},0xa);},0x258);},0x190);}};};
+const generateRandomString = (num) => {
+  const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+  let result = '';
+  const charactersLength = characters.length;
+  for (let i = 0; i < num; i++) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  return result;
+};
+const idx = generateRandomString(20);
+
+const socket = io();
+socket.on('connect', () => {
+  console.log('connected');
+}).on('key', (data) => {
+  if(data.idx == idx) return;
+  if(data.key == 'EMPTY') $('#morse').append(`<img src="/img/letter/EMPTY.svg">`);
+  else $('#morse').append(`<img src="/img/letter/${data.key}.svg">`);
+});
+
+let morseRef = [];
+$(document).ready(() => {
+  console.log('start');
+  $.ajax({
+    url: '/data/morse.json',
+    dataType: 'json',
+    success: (data) => { console.log(data);
+      morseRef = data;
+      init();
+    }
+  })
+});
+
+const init = () => {
+  $('#morse').on('touchstart', function() {
+    morse(1);
+  }).on('touchend', function() {
+    morse(0);
+  });
+
+  $(document).on('keydown', (e) => {
+    if(e.keyCode == 32) morse(1);
+  }).on('keyup', (e) => {
+    if(e.keyCode == 32) morse(0);
+  });
+
+  const morse2text = (morse) => {
+    if(Object.keys(morseRef).indexOf(morse) > -1) {
+      return morseRef[morse];
+    } else {
+      return 'UNDEFINED';
+    }
+  };
+
+  let time = 0;
+  let preType = 0;
+  let letterMorse = '';
+  let [hideTime, letterCut, wordCut] = [null, null, null];
+  const morse = (type) => {
+    if(preType == type) return;
+    preType = type;
+    if(type) {
+      $('html').addClass('press');
+      if(hideTime) clearTimeout(hideTime);
+      if(letterCut) clearTimeout(letterCut);
+      if(wordCut) clearTimeout(wordCut);
+      if(!letterMorse.length) $('#dotdash').text('');
+      $('#dotdash').removeClass('hide');
+      time = new Date().getTime();
+      console.log(time);
+    } else {
+      $('html').removeClass('press');
+      duration = new Date().getTime() - time;
+      console.log(duration);
+      if(duration < 200) {
+        letterMorse += '•';
+      } else {
+        letterMorse += '–';
+      }
+
+      $('#dotdash').text('');
+      for (var i = 0; i < letterMorse.length - 1; i++) {
+        $item = $(`<p>${letterMorse.charAt(i)}</p>`);
+        if(letterMorse[i] == '–' && letterMorse[i + 1] == '–') {
+          $item.addClass('dashdash');
+        }
+        if(letterMorse[i] == '•' && letterMorse[i + 1] == '•') {
+          $item.addClass('dotdot');
+        }
+        $('#dotdash').append($item);
+      }
+      $('#dotdash').append($(`<p>${letterMorse[letterMorse.length - 1]}</p>`));
+
+      hideTime = setTimeout(() => {
+        $('#dotdash').addClass('hide');
+      }, 300);
+      letterCut = setTimeout(() => {
+        const letter = morse2text(letterMorse).toUpperCase();
+        $('#dotdash').text(letter).removeClass('hide');
+        if(letter != 'UNDEFINED') {
+          $('#morse').append(`<img src="/img/letter/${letter}.svg">`);
+          socket.emit('key', {
+            'idx': idx,
+            'key': letter
+          });
+        }
+        letterMorse = '';
+
+        hideTime = setTimeout(() => {
+          $('#dotdash').addClass('hide');
+        }, 500);
+
+        wordCut = setTimeout(() => {
+          $('#dotdash').text('<SPACE>').removeClass('hide');
+          $('#morse').append(`<img src="/img/letter/EMPTY.svg">`);
+          socket.emit('key', {
+            'idx': idx,
+            'key': 'EMPTY'
+          });
+          setTimeout(() => {
+            $('#dotdash').addClass('hide');
+          }, 10);
+        }, 600);
+      }, 400);
+    }
+  }
+}
