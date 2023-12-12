@@ -1,13 +1,3 @@
-FROM node:18-alpine
+FROM flashspys/nginx-static:latest
 
-WORKDIR /app
-
-COPY ./package.json ./yarn.lock ./
-
-RUN yarn install
-
-COPY . .
-
-EXPOSE 3000
-
-CMD [ "yarn", "start" ]
+COPY . /static
